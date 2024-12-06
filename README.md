@@ -115,6 +115,7 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
+```
 url.py
 
 from django.contrib import admin
@@ -149,7 +150,6 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'mathapp/math.html',context)
-```
 ```
 # OUTPUT:
 ![alt text](<Screenshot (92).png>)
